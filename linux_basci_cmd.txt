@@ -1,1 +1,4 @@
-
+ls - view files
+cd - view directry
+touch - create new files
+mkdir - create new directry
