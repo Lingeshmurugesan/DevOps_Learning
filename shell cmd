@@ -9,6 +9,15 @@ vi - write inside the file
     to enter insert mode - "ESC nad then i"
     to save inserted - "ESC and then :wq!"
     tp print - "cat file_name"
+vim - to create and write a file
+pwd - to check current path
+cd - to change or move to particular file or directory
+mkdir - to create new directory
+
+-----
+
+nproc - to check cpu
+free - to check memory
 
 -----
 
