@@ -2,6 +2,15 @@
     which are commonly used firt line command in shell script
 
 -----
+sudo apt-get install apache2 - install app
+sudo systemctl status apache2 or systemctl status apache2.service - check status of apache
+if not active, change port to 8080 by --ctl + x to save changed
+    sudo nano /etc/apache2/ports.conf
+to restart apache2
+    sudo service apache2 restart
+
+
+-----
 
 ls - list all files
 touch - create file
