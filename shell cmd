@@ -1,0 +1,11 @@
+"#!/bin/bash" or "#!/bin/sh" or "#!/bin/ksh" or "#!/bin/dash"
+    which are commonly used firt line command in shell script
+
+-----
+
+ls - list all files
+touch - create file
+vi - write inside the file
+    to enter insert mode - "ESC nad then i"
+    to save inserted - "ESC and then :wq!"
+    tp print - "cat file_name"
