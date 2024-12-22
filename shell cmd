@@ -13,6 +13,7 @@ vim - to create and write a file
 pwd - to check current path
 cd - to change or move to particular file or directory
 mkdir - to create new directory
+top - to check all processors & memory
 
 -----
 
