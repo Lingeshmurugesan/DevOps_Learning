@@ -9,3 +9,17 @@ vi - write inside the file
     to enter insert mode - "ESC nad then i"
     to save inserted - "ESC and then :wq!"
     tp print - "cat file_name"
+
+-----
+
+history - to check all cmds which we have entered
+
+-----
+
+chmod - to grant access
+    arguments in chmod
+        a.root user
+        b.group
+        c.everyone
+
+chmod 777 file_name - to grant access for everyone
