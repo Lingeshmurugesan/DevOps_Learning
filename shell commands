@@ -42,7 +42,9 @@ mv 'From_FileLocation/File_Name To_FileLocatio/File_Name' = move/rename files
 rm 'FileLocation/File_Name' - delete file
 set -x = debug mode will show command executed & output
 ps = show proccessor
-
+find = /find to retrieve all data
+kill= to kill a process
+trap = trap any signals using trap cmd
 -----
 
 ps -ef = proccess with entier details
