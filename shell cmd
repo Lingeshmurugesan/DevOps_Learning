@@ -23,6 +23,9 @@ pwd - to check current path
 cd - to change or move to particular file or directory
 mkdir - to create new directory
 top - to check all processors & memory
+cp 'From_FileLocation/File_Name To_FileLocatio/File_Name' - copy files
+mv 'From_FileLocation/File_Name To_FileLocatio/File_Name' - move/rename files
+rm 'FileLocation/File_Name' - delete file
 
 -----
 
