@@ -1,6 +1,20 @@
 "#!/bin/bash" or "#!/bin/sh" or "#!/bin/ksh" or "#!/bin/dash"
     which are commonly used firt line command in shell script
 
+------
+ --UPDATE--
+sudu apt update - update ubuntu package list
+sudo yum update - update amazon linux
+
+    --INSTALL--
+sudo apt install nginx - install ubuntu software
+sudo yum install nginx - install amazon software
+
+    --START/STOP SERVICE--
+sudo systemctl start nginx - start mgnix
+sudo systemctl stop ngnix
+sudo systemctl restart nginx
+
 -----
 sudo apt-get install apache2 - install app
 sudo systemctl status apache2 or systemctl status apache2.service - check status of apache
@@ -8,7 +22,6 @@ if not active, change port to 8080 by --ctl + x to save changed
     sudo nano /etc/apache2/ports.conf
 to restart apache2
     sudo service apache2 restart
-
 
 -----
 
@@ -28,6 +41,12 @@ mv 'From_FileLocation/File_Name To_FileLocatio/File_Name' - move/rename files
 rm 'FileLocation/File_Name' - delete file
 
 -----
+-NETWORK MANAGEMENT--
+ping - to ping any web adress
+'ip addr' or ifconfig # - to check network configuration
+sudo netstat -list all listening ports & assosiate services
+
+------
 
 nproc - to check cpu
 free - to check memory
