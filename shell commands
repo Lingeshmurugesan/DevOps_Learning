@@ -3,15 +3,15 @@
 
 ------
  --UPDATE--
-sudu apt update - update ubuntu package list
-sudo yum update - update amazon linux
+sudu apt update = update ubuntu package list
+sudo yum update = update amazon linux
 
     --INSTALL--
-sudo apt install nginx - install ubuntu software
-sudo yum install nginx - install amazon software
+sudo apt install nginx = install ubuntu software
+sudo yum install nginx = install amazon software
 
     --START/STOP SERVICE--
-sudo systemctl start nginx - start mgnix
+sudo systemctl start nginx
 sudo systemctl stop ngnix
 sudo systemctl restart nginx
 
@@ -24,43 +24,55 @@ to restart apache2
     sudo service apache2 restart
 
 -----
-
-ls - list all files
-touch - create file
-vi - write inside the file
+man = manual cmd will show detail about linix cmds
+    eg: man ls
+ls = list all files
+touch = create file
+vi = write inside the file
     to enter insert mode - "ESC nad then i"
     to save inserted - "ESC and then :wq!"
     tp print - "cat file_name"
-vim - to create and write a file
-pwd - to check current path
-cd - to change or move to particular file or directory
-mkdir - to create new directory
-top - to check all processors & memory
-cp 'From_FileLocation/File_Name To_FileLocatio/File_Name' - copy files
-mv 'From_FileLocation/File_Name To_FileLocatio/File_Name' - move/rename files
+vim = to create and write a file
+pwd = to check current path
+cd = to change or move to particular file or directory
+mkdir = to create new directory
+top = to check all processors & memory
+cp 'From_FileLocation/File_Name To_FileLocatio/File_Name' = copy files
+mv 'From_FileLocation/File_Name To_FileLocatio/File_Name' = move/rename files
 rm 'FileLocation/File_Name' - delete file
+set -x = debug mode will show command executed & output
+ps = show proccessor
+
+-----
+
+ps -ef = proccess with entier details
+ps -ef | grep "agent_name" = ["|"pipe command which sends the output of the first command(ps -ef) to the second one(agent_name)]
+    eg: ps -ef | grep amazon
+awk = followed by pipe grep cmd with 'awk' will retrieve data of specific column
+    eg: ps -ef | grep amazon | awk -F" " '{print $2}' = $1,$2 indicated 1st & 2nd column respectively
+
 
 -----
 -NETWORK MANAGEMENT--
-ping - to ping any web adress
-'ip addr' or ifconfig # - to check network configuration
-sudo netstat -list all listening ports & assosiate services
+ping = to ping any web adress
+'ip addr' or ifconfig # = to check network configuration
+sudo netstat -list = all listening ports & assosiate services
 
 ------
 
-nproc - to check cpu
-free - to check memory
+nproc = to check cpu
+free = to check memory
 
 -----
 
-history - to check all cmds which we have entered
+history = to check all cmds which we have entered
 
 -----
 
-chmod - to grant access
+chmod = to grant access
     arguments in chmod
         a.root user
         b.group
         c.everyone
 
-chmod 777 file_name - to grant access for everyone
+chmod 777 file_name = to grant access for everyone
