@@ -1,0 +1,10 @@
+git init = to inialize git repository
+git add = after changes of code need to perform git add to add the changes line to the old code
+git commit = to save the changes with following -m (message)
+  eg: git commit -m updated version v1.1
+git push = 
+git diff = will show exact changes modified in github
+git log = check the versions with unique no.
+git reset --hard 'unique no. of any version' = to change / switch version
+
+--TO SHARE CODE--
