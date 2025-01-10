@@ -1,1 +1,17 @@
+      --Visual Studio Terminal commends--
+
+git clone 'repo url' = to clone git repository to local machine
+git status = to chek status of repository
+git checkout -b 'branch name' = to create new branch
+git checkout 'branch name' = to change branch
+git add . = to save the code changes to staging area before commit
+git push origin 'branch name' = push changes to git repo
+git pull origin 'branch name' = pull changes to git repo
+git merge 'branch name' = merge a branch into current branch
+
+
+      --ec2 instance linux cmd--
+ec2-user - login as 
+cd /var/www/html = switch to root user(git)
+sudo git pull origin 'branch name' = depoly code to production
 
